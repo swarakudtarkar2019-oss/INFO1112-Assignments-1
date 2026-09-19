@@ -11,7 +11,7 @@ status=$?
 #echo $status
 
 #Expected output
-expected="usage: no argument is provided"
+expected="usage: no argument is provided."
 
 #check exit code
 if [ "$status" -ne 1 ]; then

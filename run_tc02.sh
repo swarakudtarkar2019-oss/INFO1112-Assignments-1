@@ -11,7 +11,7 @@ status=$?
 #echo $status
 
 #Expected output
-expected="usage: more than one arguments are provided"
+expected="usage: more than one arguments are provided."
 
 #check exit code
 if [ "$status" -ne 1 ]; then

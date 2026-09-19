@@ -11,7 +11,7 @@ status=$?
 #echo $status
 
 #Expected output
-expected="usage: input is not a file or it does not exist"
+expected="usage: input is not a file or it does not exist."
 
 #check exit code
 if [ "$status" -ne 1 ]; then

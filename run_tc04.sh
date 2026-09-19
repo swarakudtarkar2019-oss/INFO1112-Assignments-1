@@ -13,7 +13,7 @@ status=$?
 #echo $status
 
 #Expected output
-expected="usage: input does not have the extension .vsc"
+expected="usage: input does not have the extension .vsc."
 
 #check exit code
 if [ "$status" -ne 1 ]; then

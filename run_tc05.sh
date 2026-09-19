@@ -13,7 +13,7 @@ status=$?
 #echo $status
 
 #Expected output
-expected="usage: the file is empty – no .bin file is produced"
+expected="usage: the file is empty - no .bin file is produced."
 
 #check exit code
 if [ "$status" -ne 1 ]; then
